@@ -24,3 +24,11 @@ The script:
 - Missing `FlightCodes` are filled by adding 10 to the previous value and cast to integer
 - `To_From` is split on `_`, and both resulting columns are title-cased (`"london"` -> `"London"`)
 - `Airline Code`is cleaned of all punctuation and excess whitespace, and normalized to title case
+
+## How to Run
+
+Make sure you have Python 3 and pandas installed. Then run
+
+```bash
+python3 main.py
+```
